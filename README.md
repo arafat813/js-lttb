@@ -1,4 +1,4 @@
-# lttb
+# js-lttb
 
 [English](#english) | [中文](#中文)
 
@@ -30,7 +30,7 @@ const originalData = [
   // ... more data points
 ];
 
-const downsampledData = downsample(originalData, 100); // Downsample to 100 points
+const downsampledData = lttb(originalData, 100); // Downsample to 100 points
 console.log(downsampledData);
 ```
 
@@ -64,7 +64,7 @@ const originalData = [
   // ... 更多数据点
 ];
 
-const downsampledData = downsample(originalData, 100); // 下采样至 100 个点
+const downsampledData = lttb(originalData, 100); // 下采样至 100 个点
 console.log(downsampledData);
 ```
 
