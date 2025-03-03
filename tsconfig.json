@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",           // 目标 JavaScript 版本
+    "module": "commonjs",         // 模块格式
+    "declaration": true,          // 生成 .d.ts 文件
+    "outDir": "./dist",           // 输出目录
+    "strict": true,               // 启用严格类型检查
+    "esModuleInterop": true       // 支持 CommonJS 模块导入
+  },
+  "include": ["src/**/*"],        // 编译 src 目录下的所有 .ts 文件
+  "exclude": ["node_modules"]     // 排除 node_modules
+}

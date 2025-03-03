@@ -1,0 +1,35 @@
+{
+  "name": "js-lttb",
+  "version": "1.0.0",
+  "description": "Largest Triangle Three Buckets (LTTB) 下采样算法的 TypeScript 实现，用于减少图表节点数量并保留数据的视觉形状。",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arafat813/js-lttb.git"
+  },
+  "keywords": [
+    "lttb",
+    "downsampling",
+    "time-series",
+    "data-visualization",
+    "typescript"
+  ],
+  "author": "arafat813 <arafatalim794@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arafat813/js-lttb/issues"
+  },
+  "homepage": "https://github.com/arafat813/js-lttb#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "eslint": "^8.7.0",
+    "jest": "^27.4.5"
+  }
+}
