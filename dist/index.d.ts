@@ -8,4 +8,4 @@ import { DataPoint } from './types';
  * @returns 降采样后的数据点，保留所有原始字段
  */
 declare function lttb<T extends DataPoint>(data: T[], targetPoints: number, xKey?: keyof T, yKey?: keyof T): T[];
-export { lttb };
+export default lttb;

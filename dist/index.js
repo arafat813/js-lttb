@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.lttb = lttb;
 /**
  * LTTB (Largest Triangle Three Buckets) 降采样算法
  * @param data 输入数据，包含时间和值字段以及其他可选字段
@@ -57,3 +56,4 @@ function lttb(data, targetPoints, xKey = 'time', yKey = 'value') {
     sampled.push(normalizedData[data.length - 1]);
     return sampled.map((point) => point.original);
 }
+exports.default = lttb;
